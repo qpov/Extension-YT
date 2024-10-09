@@ -1,0 +1,56 @@
+* {
+    background-color: #222222;
+    color: rgb(220, 220, 220);
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+
+.equalizer {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.volume {
+    margin-top: 2rem;
+}
+
+.volume button {
+    width: 100%;
+}
+
+.volumeSlider {
+    width: 100%;
+}
+
+.volumeText {
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.left {
+    text-align: left;
+    flex: 1;
+}
+
+.center {
+    text-align: center;
+    flex: 1;
+}
+
+.right {
+    text-align: right;
+    flex: 1;
+}
+
+.settings {
+    margin-top: 2rem;
+}
+
+.settings button {
+    width: 50%;
+}
+
+.settings h4 {
+    margin-bottom: 0.5rem;
+}

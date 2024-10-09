@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Extension YT</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h4>Extension YT</h4>
+
+    <div class="equalizer">
+        <button id="default">Default</button>
+        <button id="voiceBoost">Voice boost</button>
+        <button id="bassBoost">Bass boost</button>
+    </div>
+
+    <div class="volume">
+        <input type="range" min="0" max="500" value="100" id="volumeSlider" class="volumeSlider">
+        <div class="volumeText">
+            <p class="left">0%</p>
+            <p class="center" id="volume">Volume: 100%</p>
+            <p class="right">500%</p>
+        </div>
+        <div>
+            <button id="reset">Reset to 100%</button>
+        </div>
+    </div>
+
+    <div class="settings">
+        <h4>Right bar</h4>
+        <button id="show">Show</button>
+        <button id="hide">Hide</button>
+
+        <h4>Apply equalizer and volume for</h4>
+        <button id="selected">Selected tabs</button>
+        <button id="all">All tabs</button>
+    </div>
+
+</body>
+
+</html>
+<script src="popup.js"></script>

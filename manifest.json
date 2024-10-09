@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Extension YT",
+  "version": "0.1",
+  "description": "Extension for YouTube",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
